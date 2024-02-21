@@ -9,7 +9,7 @@ public class Principal {
 	public static void main(String[] args) {
 		TMB calcular;
 
-		calcular = new Hombre(80, 30, 180);
+		calcular = new Hombre(30, 30, 180);
 		System.out.println(calcular.calcularTMB());
 
 		calcular = new Mujer(60, 24, 165);

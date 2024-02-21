@@ -30,6 +30,9 @@ public abstract class TMB {
 	}
 
 	public TMB(float peso, float edad, float altura) {
+		this.peso = peso;
+		this.edad = edad;
+		this.altura = altura;
 	} 
 	
 	public abstract float calcularTMB();

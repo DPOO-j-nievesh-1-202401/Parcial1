@@ -9,7 +9,7 @@ public class Hombre extends TMB{
 	@Override
 	public float calcularTMB() {
 		float resultado;
-		resultado = (float) (88.362 + (13.397*peso) + (4.799*altura) - (5.677*edad));
+		resultado = (float) (88.362 + (13.397*this.peso) + (4.799*this.altura) - (5.677*this.edad));
 		return resultado;
 	}
 
